@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viena</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="./Princ/javas/hamburger.js"> </script>
+    <link rel="stylesheet" href="./Princ/stil/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img src="./Princ/stema viena.jpg" height="200" width="200" title="Stema Vienei"
+                alt="O poza cu stema Vienei">
+            <h1>Viena</h1>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <nav id="nav">
+                <ul>
+                    <li class="activa"><a href="./index.html">Pagina principală</a></li>
+                    <li><a href="./obiective/obiective turistice.html">Obiective turistice</a></li>
+                    <li><a href="./cazare/cazare.html">Cazare</a></li>
+                    <li><a href="./Princ/evenimente.html">Evenimente</a></li>
+                    <li><a href="./Princ/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="./princ-imagini/viena1.webp" class="activ car">
+                <img src="./princ-imagini/viena2.webp" class="car">
+                <img src="./princ-imagini/viena3.jpg" class="car">
+                <img src="./princ-imagini/viena4.webp" class="car">
+                <img src="./princ-imagini/viena5.webp" class="car">
+            </div>
+            <div class="buttons">
+                <span class="carousel-btn prev" >&#10094;</span>
+                <span class="carousel-btn next" >&#10095;</span>
+            </div>
+            <div class="dotContainer">
+                <div class="dot activ" attr='0' onclick="switchImage(this)"></div>
+                <div class="dot" attr='1' onclick="switchImage(this)"></div>
+                <div class="dot" attr='2' onclick="switchImage(this)"></div>
+                <div class="dot" attr='3' onclick="switchImage(this)"></div>
+                <div class="dot" attr='4' onclick="switchImage(this)"></div>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Despre Viena</h2>
+            <p>Cu o populație ce numără în jur de două milioane de locuitori, Viena a devenit cea mai populară
+                destinație turistică urbană din Austria.</p>
+            <p>Pentru persoanele romantice sau cu o înclinație pentru istorie, Viena reprezintă un oraș de vis.
+                Obiective turistice și atracții pot fi găsite la tot pasul, fie că rătăcești pe străduțe înguste sau
+                prin piețe medievale, fie că vizitezi Palatul Schönbrunn sau Palatul Imperial Hofburg, pe urmele lui
+                Sisi și ale împăratului Franz Iosif, sau pur și simplu te plimbi pe impresionantul bulevard Ring.</p>
+            <p>Viena îmbină perfect infrastructura și confortul unui oraș modern cu atmosfera ruptă din istoria sa veche
+                de secole, ce poate inspira pe oricine vizitează orașul.</p>
+            <p>Pe lângă monumente și latura sa plină de istorie, Viena oferă turiștilor și o plenitudine de atracții
+                culturale. Teatru clasic sau modern, operă sau operetă, film sau festivaluri de dans, expoziții și
+                concerte – toate acestea se găsesc în Viena. Acest oraș ce respiră cultură este plin de evenimente și
+                manifestări interesante ce așteaptă să fie descoperite pe parcursul întregului an. De aceea, nu prea
+                contează când alegi să vizitezi Viena, pentru că sigur are ceva frumos de oferit. Pentru turiștii care
+                nu au înclinații atât de puternice spre cultură, Viena are faimoasele sale cafenele sau restaurante
+                pline de specialități culinare.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <div class="imagine-logo">
+                <img src="./Princ/stema viena.jpg" class="logo">
+            </div>
+            <div class="footer-links">
+                <a href="./Princ/index.html">Pagină principală</a>
+                <a href="./obiective/obiective turistice.html">Obiective turistice</a>
+                <a href="./cazare/cazare.html">Cazare</a>
+                <a href="./Princ/evenimente.html">Evenimente</a>
+                <a href="./Princ/contact.html">Contact</a>
+                <p>Copyright © 2025 Toate Drepturile Rezervate</p>
+            </div>
+            <div class="socials">
+                <a href="https://www.instagram.com/cozidavid/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/david.cozi.3/?locale=ro_RO"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/stecherila"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./Princ/javas/carusel.js"></script>
+</body>
+
+</html>
