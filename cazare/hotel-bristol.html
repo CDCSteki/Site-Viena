@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cazare/unitate-cazare.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Hotel Bristol</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="../Princ/javas/hamburger.js"> </script>
+</head>
+
+<body>
+    <header>
+        <img src="../Princ/stema viena.jpg" class="logo" alt="O poza cu stema Vienei">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        <nav id="nav">
+            <ul>
+                <li><a href="../index.html">Pagina principală</a></li>
+                <li><a href="../obiective/obiective turistice.html">Obiective turistice</a></li>
+                <li class="activa"><a href="../cazare/cazare.html">Cazare</a></li>
+                <li><a href="../Princ/evenimente.html">Evenimente</a></li>
+                <li><a href="../Princ/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="title-section">
+        <h1>Hotel Bristol</h1>
+    </section>
+
+    <section>
+        <h2>Descriere</h2>
+        <p>Hotelul Bristol este un hotel de lux situat chiar lângă celebra Operă de Stat din Viena, cunoscut pentru
+            atmosfera sa rafinată și serviciile impecabile. Inaugurat în 1892, hotelul păstrează un stil clasic elegant,
+            cu camere și suite decorate cu mobilier de epocă și dotări moderne. Oaspeții pot savura delicii culinare la
+            restaurantul hotelului, care oferă preparate din bucătăria internațională, sau se pot relaxa în barul
+            sofisticat. Datorită locației sale centrale, Hotelul Bristol este ideal pentru explorarea atracțiilor
+            culturale din Viena, fiind o alegere perfectă pentru cei care doresc să experimenteze farmecul și luxul
+            acestei capitale europene.</p>
+    </section>
+
+    <section>
+        <h2>Galerie de Imagini</h2>
+        <div class="galerie">
+            <div><img src="../cazare-imagini/hotel-bristol/int1.jpg" height="400" width="400"></div>
+            <div><img src="../cazare-imagini/hotel-bristol/int2.jpg" height="400" width="400"></div>
+            <div><img src="../cazare-imagini/hotel-bristol/int3.jpg" height="400" width="400"></div>
+            <div><img src="../cazare-imagini/hotel-bristol/int4.jpg" height="400" width="400"></div>
+            <div><img src="../cazare-imagini/hotel-bristol/int5.jpg" height="400" width="400"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Formular de Rezervare</h2>
+        <form>
+            <div>
+                <label for="fname">Prenume:</label>
+                <input type="text" id="fname" name="fname" placeholder="John" required>
+            </div>
+            <div>
+                <label for="lname">Nume:</label>
+                <input type="text" id="lname" name="lname" placeholder="Doe" required>
+            </div>
+            <div>
+                <label for="email">Adresa de e-mail:</label>
+                <input type="email" id="email" name="email" placeholder="JohnDoe@yahoo.com" required>
+            </div>
+            <div>
+                <label for="nr_tel">Numar de telefon:</label>
+                <input type="tel" id="nr_tel" name="nr_tel" placeholder="0770123456" required>
+            </div>
+            <div>
+                <label for="sosire">Data sosirii:</label>
+                <input type="date" id="sosire" name="sosire" required>
+            </div>
+            <div>
+                <label for="plecare">Data plecarii:</label>
+                <input type="date" id="plecare" name="plecare" required>
+            </div>
+            <div>
+                <label for="camera">Tipul camerei:</label>
+                <select id="camera" name="camera">
+                    <option value="single">Camera Single</option>
+                    <option value="double">Camera Dubla</option>
+                    <option value="suite">Suita</option>
+                </select>
+            </div>
+            <div>
+                <label for="pers">Număr de persoane:</label>
+                <input type="number" id="pers" name="pers" min="1" max="10" placeholder="2" required>
+            </div>
+            <div class="cerinte">
+                <label for="cerinte">Cerințe speciale:</label>
+                <textarea id="cerinte" name="cerinte" rows="4" cols="50" placeholder="Mesaj"></textarea>
+            </div>
+            <div class="trimite">
+                <input type="submit" value="Trimite Rezervarea">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="foot">
+            <div class="imagine-logo">
+                <img src="../Princ/stema viena.jpg" class="logo-foot">
+            </div>
+            <div class="footer-links">
+                <a href="../index.html">Pagină principală</a>
+                <a href="../obiective/obiective turistice.html">Obiective turistice</a>
+                <a href="../cazare/cazare.html">Cazare</a>
+                <a href="../Princ/evenimente.html">Evenimente</a>
+                <a href="../Princ/contact.html">Contact</a>
+                <p>Copyright © 2025 Toate Drepturile Rezervate</p>
+            </div>
+            <div class="socials">
+                <a href="https://www.instagram.com/cozidavid/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/david.cozi.3/?locale=ro_RO"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/stecherila"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
